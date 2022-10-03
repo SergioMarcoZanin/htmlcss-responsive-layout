@@ -29,7 +29,7 @@ header{
 }
 .highlights .col{
     width: 100%;
-    margin: 1.25rem 0;
+    margin: .625rem 0;
 }
 /* RESPONSIVE SECTION HIGHLIGHTS */
 @media screen and ( min-width: 769px) {
@@ -39,4 +39,35 @@ header{
     .highlights .col:first-child{
         width: calc( (100% / 3) * 2);
     } 
+}
+/* SECTION PLANNING */
+.planning{
+    background-color: var(--secondary-color);
+}
+.planning .col{
+    width: 100%;
+    margin: .625rem 0;
+}
+.no-border{
+    
+}
+.border{
+    background-color: white;
+}
+
+/* RESPONSIVE SECTION PLANNING */
+@media screen and (min-width: 768px) {
+    .planning .col{
+        width: 50%;
+    }
+}
+
+/* SECTION TESTIMONIALS */
+.testimonials .col{
+    width: 100%;
+    margin: .625rem 0;
+    text-align: center;
+}
+.card-testimonial{
+    background-color: var(--secondary-color);
 }
