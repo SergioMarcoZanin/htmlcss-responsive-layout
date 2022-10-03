@@ -8,19 +8,35 @@ header{
     padding: 1.25rem 0;
     color: white;
 }
-.row ul{
-    display: flex;
-}
+
 .main-nav{
     display: none;
 }
 
 /* RESPONSIVE HEADER */
-@media  screen and ( min-width: 769px )  {
+@media  screen and ( min-width: 992px )  {
     .hamburger{
         display: none;
     }
     .main-nav{
         display: block;
     }
+} 
+/* SECTION HIGHLIGHTS */
+.card-debug{
+    background-color: var(--first-color-light);
+    height: 100px;
+}
+.highlights .col{
+    width: 100%;
+    margin: 1.25rem 0;
+}
+/* RESPONSIVE SECTION HIGHLIGHTS */
+@media screen and ( min-width: 769px) {
+    .highlights .col{
+        width: calc( 100% / 3);
+    }
+    .highlights .col:first-child{
+        width: calc( (100% / 3) * 2);
+    } 
 }
