@@ -90,7 +90,20 @@ img {
 }
 .benefits .col{
     width: 100%;
-    margin: .625rem 0;
+    margin: .625 ;
     background-color: white;
+    height: 200px;
+    margin: 1.25rem;
+    
 }
 /* RESPONSIVE SECTION BENEFITS */
+@media screen and (min-width: 768px) {
+    .benefits .col{
+        width: calc(100% / 2 - 40px);
+    }
+}
+@media screen and (min-width: 998px) {
+    .benefits .col{
+        width: calc(100% / 3 - 40px);
+    }
+}
