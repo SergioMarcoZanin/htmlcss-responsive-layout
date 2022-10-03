@@ -48,9 +48,7 @@ header{
     width: 100%;
     margin: .625rem 0;
 }
-.no-border{
-    
-}
+
 .border{
     background-color: white;
 }
@@ -132,4 +130,13 @@ img {
     max-width: 37.5rem;
     margin:auto;
     text-align: center;
+}
+/* FOOTER */
+footer{
+    background-color: #333333;
+    height: 400px;
+}
+footer p{
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
 }
