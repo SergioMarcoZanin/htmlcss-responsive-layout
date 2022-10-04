@@ -182,8 +182,26 @@ header .hamburger{
 /* SECTION ABOUT US */
 .about-us{
     width: 100%;
-    height: 600px;
+    justify-content: center;
 }
+.about-us img{
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 50%;
+    object-fit:contain;
+    margin-bottom: 15px;
+}
+.img-about-us{
+    position: relative;
+}
+.fa-quote-left{
+    position: absolute;
+    left: 110px;
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    
+}
+
 /* RESPONSIVE SECTION ABOUT US */
 @media screen and (min-width: 768px) {
     .col.big{
