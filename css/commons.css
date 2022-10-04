@@ -11,6 +11,7 @@ section{
 /* FLEX */
 .flex{
     display: flex;
+    
 }
 .row{
     display: flex;
@@ -36,6 +37,7 @@ section{
 .list-inline{
     display: flex;
     list-style: none;
+    
 }
 .col{
     padding-left: .625rem;

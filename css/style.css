@@ -7,16 +7,32 @@ header{
     background-color: var(--first-color);
     padding: 1.25rem 0;
     color: white;
+    position: sticky;
+    top: 0;
 }
 
 .main-nav{
     display: none;
+    
 }
 header .hamburger{
     background-color: var(--first-color);
     border: none;
     color: white;
     font-size: 1.5625rem;
+}
+.main-nav li{
+    padding-right: .9375rem;
+}
+.main-nav a{
+    text-decoration: none;
+    color: white;
+}
+.btn-header{
+    border: none;
+    border-radius: .9375rem;
+    padding: .625rem;
+    margin-right: -0.9375rem;
 }
 /* RESPONSIVE HEADER */
 @media  screen and ( min-width: 992px )  {
