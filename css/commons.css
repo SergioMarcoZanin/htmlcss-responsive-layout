@@ -21,8 +21,17 @@ section{
 .align-items-end{
     align-items: flex-end;
 }
+.align-items-center{
+    align-items: center;
+}
 .justify-between{
     justify-content: space-between;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-start{
+    text-align: start;
 }
 .list-inline{
     display: flex;

@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Layout</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <div class="container">
             <div class="flex justify-between">
-                <div class="logo">Logo</div>
-                <button class="hamburger">Menu</button>
+                <div class="logo">
+                    <img src="css\img\logo.png" alt="logo">
+                </div>
+                <button class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
                 <nav class="main-nav" >
                     <ul class="list-inline">
                         <li><a href="#">Link</a></li>
@@ -28,21 +33,46 @@
         <section class="highlights">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        <div class="card-debug">CARD DEBUG</div>
+                    <div class="col ">
+                        <div class="card-highlights text-align-start">
+                            <h4>Get a demo application</h4>
+                            <p>Lorem ipsum dolor sit amet,velit esse cillum dolore eu fugiat nulla pariatur</p>
+                            <button class="btn-blue">
+                                <i class="fa-brands fa-apple"></i>
+                                <span>App Store</span>
+                            </button>
+                            <div>
+                                <img src="css\img\phone.png" alt="">
+                            </div>
+                        </div>
                     </div>
                     <div class="col">
-                        <div class="card-debug">CARD DEBUG</div>
+                        <div class="card-highlights text-align-center">
+                            <i class="fa-solid fa-file-code icons"></i>
+                            <h4>Clean Code</h4>
+                            <p>Lorem ipsum dolor sit amet,velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
                     </div>
                     <div class="col">
-                        <div class="card-debug">CARD DEBUG</div>
+                        <div class="card-highlights text-align-center">
+                            <i class="fa-solid fa-compass-drafting icons"></i>
+                            <h4>Web Design</h4>
+                            <p>Lorem ipsum dolor sit amet,velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
                     </div>
                     <div class="col">
-                        <div class="card-debug">CARD DEBUG</div>
+                        <div class="card-highlights text-align-center">
+                            <i class="fa-solid fa-laptop-code icons"></i>
+                            <h4>Developement</h4>
+                            <p>Lorem ipsum dolor sit amet,velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
                     </div>
                     <div class="col">
-                        <div class="card-debug">CARD DEBUG</div>
-                    </div>
+                        <div class="card-highlights text-align-center">
+                            <i class="fa-solid fa-bullhorn icons"></i>
+                            <h4>Branding</h4>
+                            <p>Lorem ipsum dolor sit amet,velit esse cillum dolore eu fugiat nulla pariatur</p>                        
+                        </div>
                 </div>
             </div>
         </section>
@@ -51,8 +81,19 @@
         <section class="planning">
             <div class="container">
                 <div class="row align-items-end">
-                    <div class="col no-border">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</div>
-                    <div class="col border">Lorem ipsum dolor sit amet,velit esse cillum dolore eu fugiat nulla pariatur</div>
+                    <div class="col no-border">
+                        <div class="text-align-center">
+                            <img src="css\img\planning1.png" alt="imgplanning1">
+                        </div>
+                        <h2>Strategic Planning</h2>
+                        <p>Lorem ipsum dolor sit amet,velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                    <div class="col border text-align-center">
+                        <img src="css\img\planning2.png" alt="imgplanning2">
+                        <h2>App Developement</h2>
+                        <p>Lorem ipsum dolor sit amet,velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        <button class="arrow"><i class="fa-solid fa-arrow-down"></i></button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -60,20 +101,32 @@
         <!-- section testimonials -->
         <section class="testimonials">
             <div class="container">
-                <div class="row">
-                    <div class="col">TITOLO</div>
-                    <div class="col">
-                        <div class="card-testimonial">
-                            <img src="css\img\testimonial1.jpg" alt="">
-                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</div>
+                <div class="row ">
+                    <div>TITOLO</div>
+                        <div class="card-testimonial align-items-center">
+                            <div class="col col-left">
+                                <img src="css\img\testimonial1.jpg" alt="">
+                            </div>
+                            <div class="col col-right">
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card-testimonial">CELIA</div>
-                    </div>
-                    <div class="col">
-                        <div class="card-testimonial">BOB</div>
-                    </div>
+                        <div class="card-testimonial align-items-center">
+                            <div class="col col-left">
+                                <img src="css\img\testimonial2.jpg" alt="">
+                            </div>
+                            <div class="col col-right">
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                            </div>
+                        </div>
+                        <div class="card-testimonial align-items-center">
+                            <div class="col col-left">
+                                <img src="css\img\testimonial3.jpg" alt="">
+                            </div>
+                            <div class="col col-right">
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                            </div>
+                        </div>
                 </div>
             </div>
         </section>
