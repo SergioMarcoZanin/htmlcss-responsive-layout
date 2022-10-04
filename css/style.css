@@ -1,4 +1,5 @@
 @import url(reset.css);
+@import url(typo.css);
 @import url(variables.css);
 @import url(commons.css);
 
@@ -263,9 +264,26 @@ header .hamburger{
     color: white;
 }
 .container-small{
-    max-width: 37.5rem;
+    max-width: 31.25rem;
     margin:auto;
     text-align: center;
+}
+.get-started h2{
+    margin-top: 15px;
+}
+.free{
+    font-size: 3.125rem;
+    padding: .9375rem 0;
+    color: orange ;
+    font-weight: bold;
+}
+.btn-get-started{
+    background-color: white;
+    color: var(--secondary-color);
+    padding: .9375rem 3.75rem;
+    border: none;
+    border-radius: 20px;
+    margin: 1.25rem 0;
 }
 /* FOOTER */
 footer{
