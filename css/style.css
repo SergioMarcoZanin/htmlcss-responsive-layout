@@ -46,8 +46,9 @@ header .hamburger{
 /* SECTION HIGHLIGHTS */
 .card-highlights{
     background-color: var(--first-color-light);  
-    padding: .9375rem;
+    padding: 1.5625rem;
     border-radius: .9375rem;
+    
 }
 .highlights .col{
     width: 100%;
@@ -66,6 +67,14 @@ header .hamburger{
     font-size: 3.125rem;
     color: var(--first-color);
     padding-bottom: .625rem;
+}
+.btn-highlights{
+    border: none;
+    background-color: var(--first-color);
+    color: white;
+    padding: .625rem 2.5rem;
+    border-radius: .9375rem;
+    margin: 1.25rem 0;
 }
 /* RESPONSIVE SECTION HIGHLIGHTS */
 @media screen and ( min-width: 769px) {
@@ -128,6 +137,7 @@ header .hamburger{
     border-radius: 2.5rem;
     padding: .9375rem;
     text-align: center;
+    color: white;
     
 }
 .card-testimonial img {
@@ -200,22 +210,40 @@ header .hamburger{
     width: 100%;
     justify-content: center;
 }
+.about-us h2{
+    color: var(--secondary-color);
+    margin-bottom: 1.25rem;
+}
 .about-us img{
     width: 9.375rem;
     height: 9.375rem;
     border-radius: 50%;
     object-fit:contain;
-    margin-bottom: 15px;
+}
+.about-us p{
+    margin-bottom: 1.25rem;
 }
 .img-about-us{
     position: relative;
+    
 }
 .fa-quote-left{
     position: absolute;
     left: 110px;
     font-size: 2.5rem;
+    color: var(--secondary-color); 
+}
+.about-us h4{
     color: var(--secondary-color);
-    
+    font-size: 1.5625rem;
+    margin: .9375rem 0;
+}
+.btn-about-us{
+    color: white;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: .9375rem;
+    padding: .5rem .625rem;
 }
 
 /* RESPONSIVE SECTION ABOUT US */
